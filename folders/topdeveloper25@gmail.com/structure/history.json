@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "parent": 0,
+    "droppable": true,
+    "text": "History",
+    "type": "Folder"
+  },
+  {
+    "id": "b8384d25-8cef-483b-879a-5ab0f70d4f8e",
+    "parent": 1,
+    "droppable": true,
+    "text": "New Folder",
+    "type": "Folder"
+  }
+]

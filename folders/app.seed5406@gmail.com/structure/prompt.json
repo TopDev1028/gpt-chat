@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "parent": 0,
+    "droppable": true,
+    "text": "Prompt",
+    "type": "Folder"
+  }
+]

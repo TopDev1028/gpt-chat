@@ -1,0 +1,51 @@
+[
+  {
+    "id": "01f0012b-b447-493b-9286-bfa16f975ec0",
+    "parent": "1febf696-15fe-4f91-ad23-d1f4a7ccd076",
+    "droppable": false,
+    "text": "New chat",
+    "type": "File"
+  },
+  {
+    "id": "1febf696-15fe-4f91-ad23-d1f4a7ccd076",
+    "parent": "b957fb23-5517-4740-af18-76d62a02ba1b",
+    "droppable": true,
+    "text": "New Folder",
+    "type": "Folder"
+  },
+  {
+    "id": "be5408b8-9355-4f85-a3dd-72a3ee8e6a15",
+    "parent": "b957fb23-5517-4740-af18-76d62a02ba1b",
+    "droppable": false,
+    "text": "New chat",
+    "type": "File"
+  },
+  {
+    "id": 1,
+    "parent": 0,
+    "droppable": true,
+    "text": "History",
+    "type": "Folder"
+  },
+  {
+    "id": "b957fb23-5517-4740-af18-76d62a02ba1b",
+    "parent": 1,
+    "droppable": true,
+    "text": "New Folder",
+    "type": "Folder"
+  },
+  {
+    "id": "10c59a9b-f5d4-4aab-95ea-8c89ae2726c0",
+    "parent": 1,
+    "droppable": false,
+    "text": "New chat",
+    "type": "File"
+  },
+  {
+    "id": "0f585158-a049-4572-b141-05d8f6fdf0e8",
+    "parent": 1,
+    "droppable": false,
+    "text": "New chat",
+    "type": "File"
+  }
+]

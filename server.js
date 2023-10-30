@@ -1,0 +1,42 @@
+const express = require("express");
+const path = require("path");
+const dotenv = require("dotenv");
+const cors = require("cors");
+dotenv.config({ path: "./.env" });
+const app = express();
+app.use(express.json());
+
+app.use("/api/chatbot", require("./routes/chatbot"));
+app.use("/api/stripe", require("./routes/stripe"));
+
+app.use(cors());
+
+// --------------------------DEPLOYMENT------------------------------
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "./client/build")));
+
+  app.get("*", (req, res) => {
+    return res.sendFile(
+      path.resolve(__dirname, "client", "build", "index.html")
+    );
+  });
+} else {
+  app.get("/", (req, res) => {
+    res.send("API is running");
+  });
+}
+
+// --------------------------DEPLOYMENT------------------------------
+
+const PORT = process.env.PORT || 5000;
+
+const server = app.listen(PORT, () =>
+  console.log(`Server running on PORT ${PORT}`)
+);
+
+// Handling server errors with clean error messages
+process.on("unhandledRejection", (err, promise) => {
+  console.log(`Logged Error: ${err.message}`);
+  server.close(() => process.exit(1));
+});

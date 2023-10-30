@@ -1,0 +1,44 @@
+[
+  {
+    "id": "34fccaf1-8139-4d02-ab07-04165a3eda38",
+    "parent": "4f3eb43f-24f4-4ee4-a5e9-49ec9871c77d",
+    "droppable": false,
+    "text": "sdf",
+    "type": "File"
+  },
+  {
+    "id": 1,
+    "parent": 0,
+    "droppable": true,
+    "text": "Prompt",
+    "type": "Folder"
+  },
+  {
+    "id": "4f3eb43f-24f4-4ee4-a5e9-49ec9871c77d",
+    "parent": 1,
+    "droppable": true,
+    "text": "New Folder",
+    "type": "Folder"
+  },
+  {
+    "id": "b3b87793-9644-438c-9117-4837a5ce75fc",
+    "parent": 1,
+    "droppable": false,
+    "text": "ff",
+    "type": "File"
+  },
+  {
+    "id": "718b3a2f-9290-49f0-b949-b62c7322f9cb",
+    "parent": 1,
+    "droppable": false,
+    "text": "sss",
+    "type": "File"
+  },
+  {
+    "id": "602f5450-dd5e-47bd-8485-aa0fa0bc42b9",
+    "parent": 1,
+    "droppable": false,
+    "text": "ddd",
+    "type": "File"
+  }
+]
